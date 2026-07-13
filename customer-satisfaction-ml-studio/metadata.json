@@ -1,0 +1,6 @@
+{
+  "name": "Customer Satisfaction ML Studio",
+  "description": "An interactive client-side machine learning studio to analyze customer satisfaction datasets. Implements real-time Decision Trees, Random Forests, Naive Bayes, feature scaling, one-hot encoding, and K-Fold cross-validation, with an AI Data Science Companion powered by Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
