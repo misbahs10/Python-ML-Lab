@@ -153,7 +153,7 @@ The models were evaluated using:
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/Student-Performance-Prediction.git
+git clone https://github.com/misbahs10/Student-Performance-Prediction.git
 ```
 
 ---
@@ -274,9 +274,9 @@ Through this project, I learned:
 
 Python & Machine Learning Learner
 
-GitHub: https://github.com/yourusername
+GitHub: https://github.com/misbahs10/Python-ML-Lab.git
 
-LinkedIn: https://linkedin.com/in/yourusername
+LinkedIn: https://linkedin.com/in/misbahsajjad23
 
 ---
 
