@@ -155,7 +155,7 @@ Prediction
 |---------|------|--------|
 | House Price Prediction | Regression | ✅ Completed |
 | Student Performance Prediction | Classification | ✅ Completed |
-| Customer Satisfaction ML Studio | Web + ML | 🚧 In Progress |
+| Customer Satisfaction ML Studio | Web + ML | ✅ Completed |
 
 ---
 
