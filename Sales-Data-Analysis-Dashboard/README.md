@@ -211,7 +211,7 @@ The project automatically generates:
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/Sales-Data-Analysis-Dashboard.git
+git clone https://github.com/misbahs10/Sales-Data-Analysis-Dashboard.git
 ```
 
 Move into the project directory:
