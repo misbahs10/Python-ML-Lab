@@ -1,0 +1,21 @@
+Marketing Campaign Model Report
+========================================
+
+Logistic Regression
+Accuracy: 0.8906
+Precision: 0.7500
+Recall: 0.4030
+F1 Score: 0.5243
+
+Decision Tree
+Accuracy: 0.8482
+Precision: 0.4932
+Recall: 0.5373
+F1 Score: 0.5143
+
+Random Forest
+Accuracy: 0.8750
+Precision: 0.6774
+Recall: 0.3134
+F1 Score: 0.4286
+

@@ -1,0 +1,78 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# Jupyter Notebook
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+# IDE Settings
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+# Environment Variables
+# =========================
+
+.env
+.env.*
+
+# =========================
+# Model Files
+# =========================
+
+# Uncomment if you don't want to upload trained models
+# *.pkl
+# *.joblib
+
+# =========================
+# Data Files
+# =========================
+
+# Ignore raw datasets
+data/raw/*.csv
+
+# Ignore processed temporary files
+data/processed/*
+
+# =========================
+# Logs & Temporary Files
+# =========================
+
+*.log
+*.tmp
+*.temp
+
+# =========================
+# OS Files
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Streamlit
+# =========================
+
+.streamlit/secrets.toml
+
+# =========================
+# Cache
+# =========================
+
+.cache/
