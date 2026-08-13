@@ -1,0 +1,16 @@
+research_task:
+  description: >
+    Conduct a thorough research about {topic}
+    Make sure you find any interesting and relevant information given
+    the current year is {current_year}.
+  expected_output: >
+    Well-organized research notes (bullet points or sections).
+  agent: researcher
+
+writing_task:
+  description: >
+    Read the research notes and transform them into an engaging article.
+  expected_output: >
+    A fully fledged article with the main topics, each with a full section of information.
+    Formatted as markdown without '```'
+  agent: writer
