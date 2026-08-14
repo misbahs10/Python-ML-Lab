@@ -1,0 +1,114 @@
+research_task:
+  description: >
+    Conduct detailed research on the following topic:
+
+    {topic}
+
+    Research the topic carefully and identify:
+    - Key concepts
+    - Important facts
+    - Major developments
+    - Current trends
+    - Real-world applications
+    - Benefits
+    - Challenges
+    - Future possibilities
+
+    Use reliable information and clearly organize the findings.
+
+  expected_output: >
+    A detailed research document containing:
+    - Topic overview
+    - Key facts
+    - Major developments
+    - Current trends
+    - Applications
+    - Benefits
+    - Challenges
+    - Future trends
+    - Sources or citations where available
+
+  agent: researcher
+
+
+analysis_task:
+  description: >
+    Analyze the research produced by the researcher.
+
+    Identify:
+    - Key insights
+    - Important patterns
+    - Major trends
+    - Comparisons
+    - Opportunities
+    - Risks
+    - Challenges
+    - Practical implications
+
+    Do not simply repeat the research.
+    Convert it into useful analytical insights.
+
+  expected_output: >
+    A structured analytical summary containing:
+    - Key insights
+    - Major trends
+    - Important comparisons
+    - Opportunities
+    - Risks
+    - Practical implications
+
+  agent: analyst
+
+
+writing_task:
+  description: >
+    Create a professional report using the research and analysis.
+
+    The report must contain:
+
+    1. Title
+    2. Executive Summary
+    3. Introduction
+    4. Background
+    5. Key Findings
+    6. Analysis
+    7. Applications
+    8. Benefits
+    9. Challenges
+    10. Future Trends
+    11. Recommendations
+    12. Conclusion
+    13. Sources
+
+    Use professional language and avoid unnecessary repetition.
+
+  expected_output: >
+    A complete professional report in Markdown format,
+    containing clear headings, explanations, analytical insights,
+    recommendations, and sources.
+
+  agent: writer
+
+
+review_task:
+  description: >
+    Review the final report created by the writer.
+
+    Check carefully for:
+    - Factual consistency
+    - Missing information
+    - Unsupported claims
+    - Logical flow
+    - Repetition
+    - Grammar
+    - Readability
+    - Professional formatting
+    - Quality of recommendations
+
+    Fix weaknesses and return a polished final version.
+
+  expected_output: >
+    A fully reviewed, corrected, polished, publication-ready
+    Markdown report.
+
+  agent: reviewer
