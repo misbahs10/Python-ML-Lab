@@ -1,0 +1,3 @@
+Always check for: missing values, duplicates, negative revenue or units.
+Highlight top and bottom performing categories.
+Mention date range if a date column exists.

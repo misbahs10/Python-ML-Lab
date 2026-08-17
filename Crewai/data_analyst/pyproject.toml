@@ -1,0 +1,26 @@
+[project]
+name = "data_analyst"
+version = "0.1.0"
+description = "data_analyst using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "crewai[tools]>=1.15.14,<2.0.0",
+    "pandas>=2.3.3",
+]
+
+[project.scripts]
+data_analyst = "data_analyst.main:run"
+run_crew = "data_analyst.main:run"
+train = "data_analyst.main:train"
+replay = "data_analyst.main:replay"
+test = "data_analyst.main:test"
+run_with_trigger = "data_analyst.main:run_with_trigger"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
+project_id = "e16ce1a9-439c-4080-bf3a-e31d48034e1b"

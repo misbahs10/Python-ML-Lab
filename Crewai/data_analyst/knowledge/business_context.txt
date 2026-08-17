@@ -1,0 +1,2 @@
+This is a sales dataset. Key metrics: total revenue, units sold, top product, top region.
+Flag any region or product with zero or very low sales.

@@ -1,0 +1,80 @@
+data_analysis_task:
+  description: >
+    Analyze the CSV dataset located at {file_path} using the available
+    tools.
+
+    First, load the CSV file using Python and inspect the dataset.
+    Perform a thorough exploratory data analysis including:
+
+    - Number of rows and columns
+    - Column names and data types
+    - Missing values
+    - Duplicate rows
+    - Descriptive statistics
+    - Important numerical and categorical patterns
+    - Correlations between relevant numerical columns
+    - Potential outliers or unusual values
+    - Important trends and observations
+
+    Use Python and pandas to calculate the results rather than
+    guessing or relying on assumptions.
+
+    Focus on findings that would be useful for a business report.
+    Do not create the final business report. Instead, provide a
+    structured and accurate analysis that another agent can use
+    to write the final report.
+
+  expected_output: >
+    A detailed and structured data analysis containing:
+
+    1. Dataset Overview
+    2. Data Types
+    3. Data Quality Findings
+    4. Statistical Summary
+    5. Important Patterns and Trends
+    6. Correlations
+    7. Outliers or Anomalies
+    8. Key Data-Driven Findings
+
+    Include actual values and statistics from the dataset wherever
+    relevant. Format the analysis as clear Markdown without code fences.
+
+  agent: data_analyst
+
+
+report_writing_task:
+  description: >
+    Review the complete data analysis provided by the Data Analyst.
+
+    Using the analysis as your source of truth, create a professional
+    and easy-to-understand business report.
+
+    The report should include:
+
+    - Executive Summary
+    - Dataset Overview
+    - Data Quality
+    - Key Findings
+    - Important Trends and Patterns
+    - Correlations and Anomalies
+    - Business Insights
+    - Practical Recommendations
+    - Conclusion
+
+    Explain the findings clearly for a non-technical business audience.
+    Do not invent statistics, facts, or findings that are not present
+    in the Data Analyst's analysis.
+
+    Focus on turning the technical analysis into useful information
+    that can support business decision-making.
+
+  expected_output: >
+    A complete professional business data analysis report written
+    in Markdown.
+
+    The report must have clear headings, well-organized sections,
+    relevant statistics, key insights, and practical recommendations.
+
+    Do not wrap the report in ```markdown or any other code fences.
+
+  agent: report_writer
