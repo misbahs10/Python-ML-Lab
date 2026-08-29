@@ -1,0 +1,26 @@
+# Environment variables (contains secret API keys - never commit!)
+.env
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code / editor settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated outputs (optional - remove these two lines if you WANT to commit charts)
+# charts/*.png
